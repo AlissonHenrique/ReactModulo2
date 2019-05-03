@@ -1,16 +1,16 @@
-import { createGlobalStyle } from "styled-components";
+import { injectGlobal } from "styled-components";
 
-const GlobalStyle = createGlobalStyle`
+injectGlobal`
   *{
     margin:0;
     padding:0;
     box-sizing:border-box;
+    outline:none;
   }
+
   body{
     background:#9b65e6;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
   }
-
- `;
-export default GlobalStyle;
+`;
