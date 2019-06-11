@@ -1,4 +1,6 @@
 
-## GIT Compare
+## App Compare
 ## instalação, React, axios, prop-types
-yarn add y
+
+Demo: https://gitcompare-react.herokuapp.com/
+ex: facebook/react   vue/vue
